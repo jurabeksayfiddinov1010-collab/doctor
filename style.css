@@ -101,6 +101,22 @@ select{
     gap: 50px;
     margin-top: 50px;
 }
+.box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 14px;
+    width: 300px;
+    padding: 10px;
+    border-radius:10px ;
+    background-color: rgb(220, 219, 219);
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
 @media (max-width:510px){
     .textshead{
         display: none;
@@ -145,6 +161,13 @@ select{
     .section2{
         flex-direction: column;
         width:60%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: -200px;
+    }
+    .boxs{
+        width: 300px;
+        flex-direction: column;
         margin: auto;
         margin-top: 20px;
     }
