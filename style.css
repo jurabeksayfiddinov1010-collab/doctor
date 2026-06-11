@@ -89,6 +89,18 @@ select{
     margin-top: 100px;
     text-align: center;
 }
+.item1{
+    width: 300px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
 @media (max-width:510px){
     .textshead{
         display: none;
@@ -125,8 +137,15 @@ select{
     .section1{
         flex-direction: column;
         row-gap: 50px;
+        margin-bottom: -200px;
     }
     .zaglv{
         margin-top: 400px;
+    }
+    .section2{
+        flex-direction: column;
+        width:60%;
+        margin: auto;
+        margin-top: 20px;
     }
 }
