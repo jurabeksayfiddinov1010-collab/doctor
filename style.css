@@ -145,6 +145,22 @@ select{
     justify-content: space-around;
     margin-top: 40px;
 }
+.headft{
+    width: 100%;
+    height: 200px;
+    background-color: #252B42;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.botft{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
 @media (max-width:510px){
     .textshead{
         display: none;
@@ -203,6 +219,19 @@ select{
     .section4{
         flex-direction: column;
         width: 60%;
+        margin: auto;
+    }
+    .headft{
+        flex-direction: column;
+        height: 400px;
+        input{
+            padding: 5px;
+            font-size: 20px;
+        }
+    }
+    .botft{
+        font-size: 14px;
+        width: 90%;
         margin: auto;
     }
 }
